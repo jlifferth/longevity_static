@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Bootstrap Tutorial Sample Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+	</head>
+	
+	<body>
+	
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="#">Longevity Solutions</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="./">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>Welcome to Longevity Solutions</h1>
+				<p>Stop your glucose excursion before it happens.
+                    <br/> Our flagship application, Nudge will be launching in 2022.
+                </p>
+				<button class="btn btn-outline-secondary btn-lg">Learn More</button>
+			</div>
+		</header>
+		
+		<div class="container features">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Track your glucose in real time</h3>
+					<img src="images/column-1.jpg" class="img-fluid">
+					<p>The Longevity Solutions app, Nudge, connects to your continuous glucose monitor and shows your glucose levels.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<h3 class="feature-title">Receive machined learning-based insights</h3>
+					<img src="images/column-2.jpg" class="img-fluid">
+					<p>Our unique machine learning program learns from your behavior and Nudges you to exercise at high yield times throughout the day.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">	
+					<h3 class="feature-title">Get in Touch!</h3>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" name="">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email Address" name="email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="4"></textarea>
+					</div>
+					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div> 
+		</div>
+		
+		<div class="background">
+			<div class="container team">
+				<div class="row">
+					<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+						<img class="card-img-top rounded-circle" src="images/team-image-1.png" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Miriam Sweeney</h4>
+							<p class="card-text">Chief of Product</p>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+						<img class="card-img-top rounded-circle" src="images/team-image-2.png" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Rufus Sweeney</h4>
+							<p class="card-text">Chief Medical Officer</p>
+						</div>
+					</div>
+					<div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+						<img class="card-img-top rounded-circle" src="images/team-image-3.png" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Jonathan Lifferth</h4>
+							<p class="card-text">Chief Technical Officer</p>
+						</div>
+					</div>
+                    <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+						<img class="card-img-top rounded-circle" src="images/team-image-4.png" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Benjamin Bay</h4>
+							<p class="card-text">Director of Machine Learning</p>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+					<p>If you are interested in partnering with us, please reach out.</p>
+					<p>Our flagship product, Nudge, is currently in development. We are happy to discuss opportunities with software developers, consultants, and investors.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>Madison, Wisconsin
+					<br/>miriam@longevitysolutions.io
+					<br/>‭+1 (801) 368-9736‬</p>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">© 2021 Copyright: Longevity Solutions</div>
+		</footer>
+		
+		<script src="jquery-3.5.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+    
+		<div id="demo-modal" class="modal fade">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img class="rounded-circle mx-auto" src="images/email-icon.png" alt="modal image">
+						<button type="button" class="close" data-dismiss="modal" aria-label="close">
+							<span>x</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						<h4>Subscribe to our newsletter</h4>
+						<p>We will keep you updated with the most recent news from Longevity.</p>
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Enter your email address" name="email">
+							<div class="input-group-append">
+								<input type="submit" class="btn" value="Subscribe">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
