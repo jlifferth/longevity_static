@@ -33,7 +33,6 @@ body {
 /*--- header ---*/
 
 .header {
-	/* background-image: url('images/header-background.jpg'); */
 	background-image: url('images/gradient-header-background.png');
 	background-size: cover;
 	background-position: center;
